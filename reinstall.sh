@@ -16,3 +16,5 @@ pip install django-jasmine #0.4.1
 pip install markdown #2.5.1
 pip install djangorestframework #2.4.3
 pip install django-filter #0.8
+pip install django-tinymce #1.5.3
+pip install django-staticfiles #1.2.1

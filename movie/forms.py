@@ -1,7 +1,9 @@
 from djangotoolbox.fields import ListField
 from django import forms
 
+
 class GenreListField(forms.CharField):
+
     def prepare_value(self, value):
         return ', '.join(value)
 
